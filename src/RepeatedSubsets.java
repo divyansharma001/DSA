@@ -31,7 +31,16 @@ public class RepeatedSubsets {
             for (int j = start; j < n; j++) {
                 List<Integer> internal = new ArrayList<>(outer.get(j));
                 internal.add(arr[i]);
-                outer.add(internal);
+                List<List<Integer>> ans = new ArrayList<>();
+                for(int m=0;m<internal.size();m++){
+
+                    for(int n=0;n<internal.size();n++){
+
+                        ans.add(arr[m]+arr[j]);
+                    }
+
+                }
+                outer.add(ans);
             }
         }
 
