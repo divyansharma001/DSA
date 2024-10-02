@@ -6,6 +6,7 @@ public class PathsInArraylist {
         System.out.println(path("", 3, 3));
     }
 
+
   static ArrayList<String> path(String p, int r, int c){
         if(r==1 && c==1){
             ArrayList<String> list = new ArrayList<>();
