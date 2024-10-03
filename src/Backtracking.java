@@ -42,7 +42,7 @@ public class Backtracking {
 
         // this line is where the function will be over
         // so before the function gets removed, also remove the changes that were made by that function
-        maze[r][c] = true;
+        maze[r][c] = true; 
     }
 
 
