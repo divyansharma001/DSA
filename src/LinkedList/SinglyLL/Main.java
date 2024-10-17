@@ -8,6 +8,14 @@ public class Main {
         list.insertAtFirst(2);
         list.insertAtFirst(8);
         list.insertAtFirst(17);
+        list.insertAtLast(23);
+        list.insert(100, 3);
+        list.display();
+        System.out.println(list.deleteFirst());
+        list.display();
+        System.out.println(list.deleteLast());
+        list.display();
+        System.out.println(list.delete(2));
         list.display();
     }
 }
